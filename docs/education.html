@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education - James D. Atkisson</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">James D. Atkisson</div>
+    <span class="menu-toggle">&#9776;</span>
+    <nav>
+    <a href="index.html">Home</a>
+      <a href="index.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html" class="active">Education</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <div class="content">
+    <section class="about-classes">
+      <h2>Education</h2>
+      </section>
+      <section class ="education">
+
+      <!-- College -->
+      <div class="education-entry">
+        <h3>University of North Carolina at Chapel Hill</h3>
+        <p><strong>Pursueing a Bachelor of Science in Astrophysics</strong>, Expected class of 2027</p>
+        <p><strong>Honors Carolina</strong>, Competitive academic program enrolling the top 10% of each class</p>
+        <p><strong>Accelerated Research Program</strong>, Awarded to pursue faculty mentored physics research</p>
+      </div>
+
+      <!-- High School -->
+      <div class="education-entry">
+        <h3>International Baccalaureate Programme at Smithfield Selma Highschool, Smithfield NC</h3>
+        <p><strong>International Baccalaureate Programme Diploma</strong>, Class of 2023</p>
+        <a href="https://www.ibo.org/programmes/diploma-programme/" target="_blank">Read more here</a>
+      </div>
+
+    </section>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
